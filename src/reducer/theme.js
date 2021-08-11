@@ -1,6 +1,6 @@
-export default function animal(state = "dog", action) {
+export default function theme(state = "darkblue", action) {
   switch (action.type) {
-    case "CHANGE_ANIMAL":
+    case "CHANGE_THEME":
       return action.payload;
     default:
       return state;
